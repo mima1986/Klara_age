@@ -1,0 +1,22 @@
+#include <iostream> 
+#include <string>
+#include <cmath>
+using namespace std;
+int  main(){
+    
+    float  wiek;
+
+    cout << "ile Klara ma lat?";
+cin >>wiek;
+   { if ( wiek == 5 ) cout << "juz prawie 5 :) \n";
+      
+    if ( wiek < 5 ) cout << "za malo :) \n";
+    if ( wiek > 5 ) cout << "jeszcze nie :) \n";
+    }
+    
+   system ("pause");
+    return 0;
+    
+    
+    
+}
